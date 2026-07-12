@@ -1,0 +1,50 @@
+{"timestamp":"2026-07-12T15:35:51.260454Z","level":"info","event":"::group::Pre Execute","logger":"task","filename":"task_runner.py","lineno":1926}
+{"timestamp":"2026-07-12T15:35:51.184533Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-07-12T15:35:51.187820Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-07-12T15:35:51.296127Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"UserWarning","filename":"/opt/airflow/dags/ecommerce_pipeline.py","lineno":2,"try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"py.warnings"}
+{"timestamp":"2026-07-12T15:35:51.320548Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:51.321336Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:51.321848Z","level":"info","event":"Current task name:compute_kpis","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:51.322201Z","level":"info","event":"Dag name:ecommerce_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:51.321189Z","level":"info","event":"::endgroup::","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"task","filename":"task_runner.py","lineno":1727}
+{"timestamp":"2026-07-12T15:35:52.877684Z","level":"info","event":"========================================","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.878618Z","level":"info","event":"KPI REPORT","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.879364Z","level":"info","event":"========================================","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.879977Z","level":"info","event":"Orders : 98666","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.880614Z","level":"info","event":"Sales : 13591643.7","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.881367Z","level":"info","event":"Average Price : 120.65","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.882045Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.882880Z","level":"info","event":"Top Products","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.883545Z","level":"info","event":"product_id","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.884496Z","level":"info","event":"aca2eb7d00ea1a7b8ebd4e68314663af    527","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.885452Z","level":"info","event":"99a4788cb24856965c36a24e339b6058    488","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.886020Z","level":"info","event":"422879e10f46682990de24d770e7f83d    484","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.886805Z","level":"info","event":"389d119b48cf3043d311335e499d9c6b    392","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.887412Z","level":"info","event":"368c6c730842d78016ad823897a372db    388","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.890417Z","level":"info","event":"53759a2ecddad2bb87a079a1f1519f73    373","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.891641Z","level":"info","event":"d1c427060a0f73f6b889a5c7c61f2ac4    343","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.892713Z","level":"info","event":"53b36df67ebb7c41585e8d54d6772e08    323","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.893447Z","level":"info","event":"154e7e31ebfa092203795c972e5804a6    281","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.894024Z","level":"info","event":"3dd2a17168ec895c781a9191c1e95ad7    274","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.894757Z","level":"info","event":"dtype: int64","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.895370Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.896083Z","level":"info","event":"Top Categories","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.896638Z","level":"info","event":"product_category_name","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.897248Z","level":"info","event":"cama_mesa_banho           11115","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.897958Z","level":"info","event":"beleza_saude               9670","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.898409Z","level":"info","event":"esporte_lazer              8641","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.898790Z","level":"info","event":"moveis_decoracao           8334","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.899271Z","level":"info","event":"informatica_acessorios     7827","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.899745Z","level":"info","event":"utilidades_domesticas      6964","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.900320Z","level":"info","event":"relogios_presentes         5991","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.900732Z","level":"info","event":"telefonia                  4545","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.901252Z","level":"info","event":"ferramentas_jardim         4347","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.901644Z","level":"info","event":"automotivo                 4235","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.902000Z","level":"info","event":"dtype: int64","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.916029Z","level":"info","event":"Done. Returned value was: {'orders': 98666, 'sales': np.float64(13591643.7), 'average_price': np.float64(120.65)}","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":233}
+{"timestamp":"2026-07-12T15:35:52.916394Z","level":"info","event":"::group::Post Execute","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"task","filename":"task_runner.py","lineno":1288}
+{"timestamp":"2026-07-12T15:35:52.916782Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019f56f8-3402-7c96-ac67-9239e5923c6d'), task_id='compute_kpis', dag_id='ecommerce_pipeline', run_id='manual__2026-07-12T15:35:34.598423+00:00', try_number=1, dag_version_id=UUID('019f56f7-98b1-799e-aa37-ec98d0b3c34f'), map_index=-1, hostname='b6ae3380fee5', context_carrier={'traceparent': '00-d661f4bf0fd055c6bb292801344de6da-1c2e827f740877bc-01'}, task=<Task(_PythonDecoratedOperator): compute_kpis>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 7, 12, 15, 35, 51, 264079, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, sentry_integration='')","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"task","filename":"task_runner.py","lineno":1791}
+{"timestamp":"2026-07-12T15:35:52.978351Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.979183Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.979956Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): compute_kpis>","logger":"task.stdout"}
+{"timestamp":"2026-07-12T15:35:52.979027Z","level":"info","event":"::endgroup::","try_number":1,"run_id":"manual__2026-07-12T15:35:34.598423+00:00","map_index":-1,"task_id":"compute_kpis","ti_id":"019f56f8-3402-7c96-ac67-9239e5923c6d","dag_id":"ecommerce_pipeline","logger":"task","filename":"task_runner.py","lineno":1896}

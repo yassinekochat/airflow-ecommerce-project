@@ -1,0 +1,18 @@
+[
+    {
+        "Metric":"Total Orders",
+        "Value":98666
+    },
+    {
+        "Metric":"Total Sales",
+        "Value":13591643.6999999993
+    },
+    {
+        "Metric":"Average Price",
+        "Value":120.65
+    },
+    {
+        "Metric":"Top Category",
+        "Value":"cama_mesa_banho"
+    }
+]
