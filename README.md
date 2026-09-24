@@ -27,17 +27,15 @@ The main objectives of this project are:
 # 🛠 Technologies Used
 
 | Technology | Purpose |
-|------------|---------|
-| Apache Airflow 3.2.2 | Workflow orchestration |
-| Python 3.13 | Data processing |
+|---|---|
+| Apache Airflow | Workflow orchestration |
+| Python | Data processing |
 | Pandas | Data manipulation |
 | Docker | Containerization |
 | Docker Compose | Multi-container deployment |
-| MongoDB | NoSQL database |
+| MongoDB | NoSQL storage |
 | Jenkins | Continuous Integration |
-| HTML | Dashboard generation |
 | Git & GitHub | Version control |
-
 ---
 
 # 📂 Dataset
@@ -336,7 +334,7 @@ Containers used:
 Clone the repository
 
 ```bash
-git clone https://github.com/your_username/airflow-ecommerce-project.git
+git clone https://github.com/yassinekochat/airflow-ecommerce-project.git
 ```
 
 Go to the project
